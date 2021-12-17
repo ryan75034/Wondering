@@ -45,10 +45,12 @@ nav ul {
     margin: 0;
     padding: .9rem 0;
     background: black;
+    padding: 30px 0;
 }
 
 nav li {
     display: inline;
+    padding: 1rem 0;
 }
 
 nav a {
@@ -58,13 +60,13 @@ nav a {
     transition: 1s background-color;
 }
 
-nav a:hover, nav a:focus  {
+/* nav a:hover, nav a:focus  {
     background-color: rgb(255, 255, 255);
     color: black;
     font-weight: bold;
     border-radius: 0rem 0rem .8rem .8rem;
     letter-spacing: 2px;
-}
+} */
 
 /* 
     Looping video
@@ -184,4 +186,70 @@ a {
     text-align: justify;
     line-height: 1.2rem;
     letter-spacing: 1px;
+}
+
+/* 
+    About Us Page Styling
+*/
+
+.aboutUs-content {
+    padding: 0rem 2rem;
+    
+}
+
+.people-detail h2{
+    margin: 2.5rem 0rem 1rem;
+}
+
+.people-detail p {
+    text-align: justify;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+}
+
+/* 
+    Contact Page styling
+*/
+
+.form-img {
+    position: relative;
+    bottom: 90px;
+    z-index: -1;
+}
+
+form {
+    position: relative;
+    bottom: 50px;
+    padding: 2rem;
+}
+
+input[type=text] {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: .5rem;
+    margin: 1rem 0;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, .2);
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, .2);
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
 }
